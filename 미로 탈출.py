@@ -1,4 +1,4 @@
-import collections
+from collections import deque
 
 n, m = map(int, input().split())  # 세로, 가로
 
