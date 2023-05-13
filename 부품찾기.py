@@ -21,4 +21,4 @@ for part in wants:  # part->wants 번호 목록
     if p_list[part] != 1:  # 손님이 원하는 부품번호가 goods에 없다면
         print("no", end=" ")  # 개행 대신 공백으로 'no'출력
     else:
-        print("yes", end=" ") # 있으면 'yes'출력
+        print("yes", end=" ") 
